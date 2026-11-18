@@ -135,13 +135,15 @@ h2 { font-size: clamp(32px, 4vw, 46px); line-height: 1.1; letter-spacing: -.025e
 /* ---------- Funciones ---------- */
 .feat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 48px; }
 .feat {
+  display: grid; grid-template-columns: 44px minmax(0, 1fr); column-gap: 18px; align-items: start;
   background: var(--bg-2); border: 1px solid var(--line); border-radius: 20px; padding: 32px;
   transition: transform .25s ease, box-shadow .25s ease;
 }
+.feat > p { grid-column: 2; }
 .feat:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
-.feat .ico { width: 44px; height: 44px; border-radius: 12px; background: var(--accent-tint); color: var(--accent-3); display: grid; place-items: center; margin-bottom: 20px; }
+.feat .ico { width: 44px; height: 44px; border-radius: 12px; background: var(--accent-tint); color: var(--accent-3); display: grid; place-items: center; grid-row: 1 / span 2; }
 .feat .ico svg { width: 22px; height: 22px; }
-.feat h3 { font-size: 21px; letter-spacing: -.02em; font-weight: 800; margin-bottom: 8px; line-height: 1.25; }
+.feat h3 { font-size: 21px; letter-spacing: -.02em; font-weight: 800; margin-bottom: 8px; line-height: 1.3; grid-column: 2; }
 .feat p { color: var(--ink-soft); font-size: 16px; }
 
 /* ---------- Formatos ---------- */
