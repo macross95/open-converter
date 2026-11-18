@@ -7,6 +7,14 @@
 <p align="center">Convertidor de imágenes multi-formato para Windows, macOS y Linux, con ventana y línea de comandos.</p>
 
 <p align="center">
+  <a href="https://github.com/macross95/open-converter/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para-Windows-2563eb?style=for-the-badge" alt="Descargar para Windows"></a>
+  <a href="https://github.com/macross95/open-converter/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para-macOS-1d4ed8?style=for-the-badge" alt="Descargar para macOS"></a>
+  <a href="https://github.com/macross95/open-converter/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para-Linux-0b1020?style=for-the-badge" alt="Descargar para Linux"></a>
+</p>
+
+<p align="center"><a href="https://macross95.github.io/open-converter/">Sitio web</a> · <a href="https://github.com/macross95/open-converter/releases">Todas las versiones</a></p>
+
+<p align="center">
   <img src="docs/screenshot.png" width="720" alt="Ventana de Open Converter">
 </p>
 

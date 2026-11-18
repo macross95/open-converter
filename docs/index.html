@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Converter: convertidor de imágenes para Windows, macOS y Linux</title>
+  <meta name="description" content="Convierte imágenes entre JPG, PNG, WEBP, AVIF, HEIC y más de 20 formatos, por lotes y sin internet. Gratis y de código abierto, para Windows, macOS y Linux.">
+  <meta name="theme-color" content="#e8eef6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Open Converter">
+  <meta property="og:description" content="Convertidor de imágenes multi-formato para Windows, macOS y Linux. Gratis y de código abierto.">
+  <meta property="og:image" content="https://macross95.github.io/open-converter/screenshot.png">
+  <meta property="og:url" content="https://macross95.github.io/open-converter/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="sitio.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Open Converter, inicio">
+        <img src="logo.png" alt="" width="34" height="34">
+        Open Converter
+      </a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="#funciones">Funciones</a>
+        <a href="#formatos">Formatos</a>
+        <a href="#consola">Consola</a>
+        <a class="btn btn-primary btn-sm" href="#descargar">Descargar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Portada -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div>
+          <h1 data-enter>Convierte tus imágenes entre <em>más de 25 formatos</em>, sin internet.</h1>
+          <p class="lead" data-enter="2">Open Converter cambia JPG, PNG, WEBP, AVIF, HEIC y más, por carpetas completas y cuidando tus colores y metadatos. Gratis y de código abierto, para Windows, macOS y Linux.</p>
+          <div class="actions" data-enter="3">
+            <a class="btn btn-primary" id="hero-dl" href="#descargar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+              <span id="hero-dl-text">Descargar Open Converter</span>
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/macross95/open-converter">Ver el código</a>
+          </div>
+          <p class="hero-note" id="hero-note" data-enter="3">Windows 10 y 11 · macOS 11 o superior · Ubuntu 22.04 o superior</p>
+        </div>
+        <div class="window" data-enter="2">
+          <img src="screenshot.png" width="1140" height="780" alt="Ventana de Open Converter con la lista de imágenes a la izquierda y los ajustes de formato, calidad y tamaño a la derecha">
+        </div>
+      </div>
+    </section>
+
+    <!-- Descargas -->
+    <section class="downloads" id="descargar">
+      <div class="wrap">
+        <p class="eyebrow">Descargar</p>
+        <h2>Elige tu sistema y listo.</h2>
+        <p class="lead">Cada botón baja el instalador de la última versión. Sin cuentas, sin publicidad y sin registro.</p>
+
+        <div class="dl-grid">
+          <article class="dl-card" data-os="windows">
+            <div class="dl-head">
+              <div class="os-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 4.6l7.6-1.1v7.2H3zM11.6 3.4L21 2v8.7h-9.4zM3 12.3h7.6v7.2L3 18.4zM11.6 12.3H21V21l-9.4-1.3z"/></svg></div>
+              <div>
+                <h3>Windows</h3>
+                <p class="req">Windows 10 y 11 · <span class="size" data-size="exe">64 bits</span></p>
+              </div>
+              <span class="mine-tag">Tu equipo</span>
+            </div>
+            <p class="how">Instalador con asistente. No pide permisos de administrador.</p>
+            <a class="btn btn-primary" data-asset="exe" href="https://github.com/macross95/open-converter/releases/latest">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+              Descargar para Windows
+            </a>
+          </article>
+
+          <article class="dl-card" data-os="macos">
+            <div class="dl-head">
+              <div class="os-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6a3 3 0 10-3 3h12a3 3 0 10-3-3v12a3 3 0 103-3H6a3 3 0 103 3z"/></svg></div>
+              <div>
+                <h3>macOS</h3>
+                <p class="req">macOS 11 o superior · <span class="size" data-size="arm64">Apple Silicon</span></p>
+              </div>
+              <span class="mine-tag">Tu equipo</span>
+            </div>
+            <p class="how">Abre el .dmg y arrastra el programa a Aplicaciones. La primera vez, ábrelo con clic derecho y Abrir. Este es para Apple Silicon (M1 a M4); <a data-asset="x64" href="https://github.com/macross95/open-converter/releases/latest">para Mac Intel, descarga esta versión</a>.</p>
+            <a class="btn btn-primary" data-asset="arm64" href="https://github.com/macross95/open-converter/releases/latest">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+              Descargar para macOS
+            </a>
+          </article>
+
+          <article class="dl-card" data-os="linux">
+            <div class="dl-head">
+              <div class="os-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5-5 5M12 18h7"/></svg></div>
+              <div>
+                <h3>Linux</h3>
+                <p class="req">Ubuntu 22.04 o superior · <span class="size" data-size="tar">64 bits</span></p>
+              </div>
+              <span class="mine-tag">Tu equipo</span>
+            </div>
+            <p class="how">Descomprime y ejecuta <code>./install.sh</code>. Se instala solo para tu usuario y aparece en el menú de aplicaciones.</p>
+            <a class="btn btn-primary" data-asset="tar" href="https://github.com/macross95/open-converter/releases/latest">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+              Descargar para Linux
+            </a>
+          </article>
+        </div>
+
+        <p class="dl-foot">
+          <span id="version-line">Última versión en GitHub.</span>
+          <a href="https://github.com/macross95/open-converter/releases">Todas las versiones y sumas SHA-256</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Funciones -->
+    <section id="funciones">
+      <div class="wrap">
+        <p class="eyebrow">Funciones</p>
+        <h2>Todo lo que necesitas para cambiar de formato.</h2>
+        <div class="feat-grid">
+          <article class="feat">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg></div>
+            <h3>Lotes completos</h3>
+            <p>Arrastra archivos o carpetas enteras a la ventana y conviértelos de una vez. Nunca sobrescribe el original: si el nombre ya existe, agrega « (1)».</p>
+          </article>
+          <article class="feat">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14v6h6M20 10V4h-6M4 20l7-7M20 4l-7 7"/></svg></div>
+            <h3>Tamaño y preajustes</h3>
+            <p>Redimensiona (dentro, cubrir o exacto), rota, voltea y pasa a escala de grises. Los preajustes Web, Miniatura, Impresión, Sin pérdida y Redes sociales configuran todo de un clic.</p>
+          </article>
+          <article class="feat">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3>Metadatos a tu medida</h3>
+            <p>Conserva la fecha y la cámara, quita solo la ubicación y los números de serie, o elimina todo. El perfil de color siempre se mantiene para que los colores no cambien.</p>
+          </article>
+          <article class="feat">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.300-3.800 9c-2.500-2.700-3.800-5.700-3.800-9s1.300-6.300 3.800-9z"/></svg></div>
+            <h3>En español e inglés</h3>
+            <p>La interfaz cambia de idioma al instante y recuerda tus últimas preferencias. Funciona sin conexión: tus imágenes nunca salen de tu computador.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formatos -->
+    <section class="formats" id="formatos">
+      <div class="wrap">
+        <p class="eyebrow">Formatos</p>
+        <h2>De JPG a AVIF, pasando por HEIC y RAW.</h2>
+        <p class="lead">Lee y escribe los formatos más usados y abre muchos más. Elige el de salida y la calidad, y el programa hace el resto.</p>
+        <div class="chips" aria-label="Formatos principales">
+          <span class="chip hot">JPG</span><span class="chip hot">PNG</span><span class="chip hot">WEBP</span><span class="chip hot">AVIF</span><span class="chip hot">HEIC</span>
+          <span class="chip">TIFF</span><span class="chip">GIF</span><span class="chip">BMP</span><span class="chip">ICO</span><span class="chip">SVG</span><span class="chip">RAW</span><span class="chip">y más de 20 adicionales</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consola -->
+    <section class="cli" id="consola">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">Línea de comandos</p>
+          <h2>También funciona por consola.</h2>
+          <p class="lead">Convierte desde scripts o la terminal con el mismo motor que la ventana. Misma calidad, mismos metadatos.</p>
+        </div>
+<pre class="term" aria-label="Ejemplos de comandos"><span class="c"># abre la ventana</span>
+<span class="p">$</span> openconverter
+
+<span class="c"># una imagen, con calidad y tamaño</span>
+<span class="p">$</span> openconverter convert foto.heic foto.webp --quality 85 --resize 1920x
+
+<span class="c"># una carpeta completa</span>
+<span class="p">$</span> openconverter batch ./entrada ./salida --format webp --preset web
+
+<span class="c"># ver los formatos disponibles</span>
+<span class="p">$</span> openconverter formats</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a class="brand" href="#top"><img src="logo.png" alt="" width="34" height="34">Open Converter</a>
+      <nav aria-label="Enlaces">
+        <a href="https://github.com/macross95/open-converter">Código en GitHub</a>
+        <a href="https://github.com/macross95/open-converter/releases">Versiones</a>
+        <a href="https://github.com/macross95/open-converter/issues">Reportar un problema</a>
+        <a href="https://github.com/macross95/open-converter/blob/main/LICENSE">Licencia MIT</a>
+      </nav>
+      <p class="credit">Diseñado y desarrollado por <a href="https://www.linkedin.com/in/felipelucero/">MacrosS</a>. Construido con Pillow, CustomTkinter, tkinterdnd2 y pillow-heif.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Enlaces directos al instalador de la última versión, y resalta el sistema del visitante.
+    (function () {
+      var REPO = "macross95/open-converter";
+      var ua = navigator.userAgent || "", plat = (navigator.platform || "");
+      var os = /Windows/i.test(ua) ? "windows"
+        : /Mac/i.test(plat) && !/iPhone|iPad/i.test(ua) ? "macos"
+        : /Linux/i.test(plat) && !/Android/i.test(ua) ? "linux" : "";
+      var names = { windows: "Windows", macos: "macOS", linux: "Linux" };
+      var key = { windows: "exe", macos: "arm64", linux: "tar" };
+
+      var mine = document.querySelector('.dl-card[data-os="' + os + '"]');
+      if (mine) mine.classList.add("is-mine");
+
+      function mb(n) { return "(" + (n / 1048576).toFixed(0) + " MB)"; }
+
+      fetch("https://api.github.com/repos/" + REPO + "/releases/latest", { headers: { Accept: "application/vnd.github+json" } })
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+        .then(function (rel) {
+          var found = {};
+          (rel.assets || []).forEach(function (a) {
+            var n = a.name;
+            if (/\.exe$/i.test(n)) found.exe = a;
+            else if (/macos-arm64\.dmg$/i.test(n)) found.arm64 = a;
+            else if (/macos-x64\.dmg$/i.test(n)) found.x64 = a;
+            else if (/linux.*\.tar\.gz$/i.test(n)) found.tar = a;
+          });
+          document.querySelectorAll("[data-asset]").forEach(function (el) {
+            var a = found[el.getAttribute("data-asset")];
+            if (a) el.href = a.browser_download_url;
+          });
+          document.querySelectorAll("[data-size]").forEach(function (el) {
+            var a = found[el.getAttribute("data-size")];
+            if (a) el.textContent = mb(a.size);
+          });
+          var v = document.getElementById("version-line");
+          if (v && rel.tag_name) v.textContent = "Versión " + rel.tag_name.replace(/^v/, "") + ".";
+          var hero = document.getElementById("hero-dl");
+          if (os && found[key[os]]) {
+            hero.href = found[key[os]].browser_download_url;
+            document.getElementById("hero-dl-text").textContent = "Descargar para " + names[os];
+          }
+        })
+        .catch(function () {
+          var hero = document.getElementById("hero-dl");
+          if (os) document.getElementById("hero-dl-text").textContent = "Descargar para " + names[os];
+          hero.href = "#descargar";
+        });
+    })();
+  </script>
+</body>
+</html>
