@@ -190,7 +190,7 @@ jobs:
           files: instaladores/**/*
           body: |
             Open Converter, convertidor de imágenes multi-formato creado por MacrosS. En español e inglés.
-            - **Windows 10 y 11:** `Open Converter-Setup-${{ steps.version.outputs.valor }}.exe`
+            - **Windows 10 y 11:** `Open.Converter-Setup-${{ steps.version.outputs.valor }}.exe`
             - **macOS 11 o superior:** `.dmg` (arm64 = Apple Silicon M1 a M4, x64 = Intel). Como el programa no está firmado con un certificado de Apple, la primera vez ábrelo con clic derecho → Abrir.
             - **Linux (Ubuntu 22.04 o superior y distribuciones similares):** `.tar.gz`. Descomprime y ejecuta `./install.sh`.
 

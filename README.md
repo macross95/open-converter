@@ -27,7 +27,7 @@ Descarga el instalador de tu sistema desde la sección [**Releases**](../../rele
 
 | Sistema | Archivo | Cómo instalar |
 |---|---|---|
-| Windows 10 y 11 | `Open Converter-Setup-x.y.z.exe` | Ejecútalo. No requiere permisos de administrador. |
+| Windows 10 y 11 | `Open.Converter-Setup-x.y.z.exe` | Ejecútalo. No requiere permisos de administrador. |
 | macOS 11 o superior | `Open-Converter-x.y.z-macos-arm64.dmg` (Apple Silicon) o `-x64.dmg` (Intel) | Abre el `.dmg` y arrastra el programa a Aplicaciones. La primera vez ábrelo con clic derecho → Abrir, porque no está firmado con un certificado de Apple. |
 | Linux (Ubuntu 22.04 o superior) | `Open-Converter-x.y.z-linux-x64.tar.gz` | `tar -xzf Open-Converter-*.tar.gz && ./install.sh`. Se instala solo para tu usuario y aparece en el menú de aplicaciones. Para quitarlo: `./install.sh --uninstall`. |
 
