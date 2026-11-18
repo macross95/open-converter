@@ -55,7 +55,9 @@ EDGE_CURSORS = {
 }
 
 LRESULT = ctypes.c_ssize_t
-WNDPROC = ctypes.WINFUNCTYPE(LRESULT, wintypes.HWND, wintypes.UINT, wintypes.WPARAM, wintypes.LPARAM)
+# WINFUNCTYPE solo existe en Windows; en macOS y Linux este módulo se importa pero no se usa.
+WNDPROC = (ctypes.WINFUNCTYPE(LRESULT, wintypes.HWND, wintypes.UINT, wintypes.WPARAM, wintypes.LPARAM)
+           if sys.platform.startswith("win") else None)
 
 
 class MINMAXINFO(ctypes.Structure):
