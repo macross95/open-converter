@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Compilación (PyInstaller e Inno Setup): se publican como Release, no en el repositorio
+build/
+dist/
+installer_output/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+out/
+tmp/
+
+# Archivos de compilación del paquete
+.venv/
+*.dmg
+salida/
+dmg/
+paquete/

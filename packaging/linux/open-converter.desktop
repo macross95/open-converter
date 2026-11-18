@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Open Converter
+Comment=Convertidor de imágenes multi-formato
+Comment[en]=Multi-format image converter
+Exec=open-converter %F
+Icon=open-converter
+Terminal=false
+Categories=Graphics;Utility;
+MimeType=image/jpeg;image/png;image/webp;image/avif;image/heif;image/heic;image/tiff;image/gif;image/bmp;
